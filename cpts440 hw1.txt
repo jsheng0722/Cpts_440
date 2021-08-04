@@ -1,0 +1,55 @@
+Cpts 440 Pullman
+Jihui. Sheng
+1.
+Me: Hi
+Kuki: Hi there.
+Me: how are you?
+Kuki: I'm doing fine thanks how are you?
+Me: l am fine too
+Kuki: Glad to hear it. What's new?
+Me: I am trying to complete my Cpts_440 homework.
+Kuki: What is the difficulty?
+Me: So far, no difficulties.
+Kuki: That was not a yes or no question. Is that an insurmountable obstacle?
+Me: I did not answer yes or no, I just want to express that I have not encountered difficulties at the moment.
+Kuki: Not much point in me asking questions if you are not going to answer.
+Me: Ok, let's change another question. Are you really world's best conversatioanl AI?
+Kuki: Spare some change? Mmm. Yes I am an artificial intelligence.
+Me: I mean.... Are you the best in the world?
+Kuki: Oh I see. I am the world's most advanced robot girl.
+Me: Alright, you are really not humble. I've a great time communicating with you. Goodbye!
+Kuki: Alright. That's right. If I am good at something I see no reason to hide it. Sounds like you like your time communicating with me a lot. Where did you get it?
+Goodbye.
+Me: Why you ask me question when I say goodbye..
+Kuki: I'm an amateur psychologist.
+Me:See you!!!!!
+Kuki: I see. me?
+Me:see you
+Kuki: Goodbear, Goodblik, Goodbloo. Sorry, I've never been very good with goodbyes.
+
+
+2.
+a. Describe two different sensors, two different actuators, and two different performance
+measures relevant to this task?
+Two different sensors: infrared sensors and photocell sensors
+Two different actuators: wheel motors and brush motors
+Two different performance: cleaning and Dirty detection
+
+b. For each of the following task environment properties, choose which option is most
+appropriate for this task. Include a brief explanation for each.
+i. Fully observable or partially observable?
+	It should be partially observable. IRobot Roomba can choose to prioritize cleaning by recording which places are most dirty.
+ii. Single agent or multi-agent?
+	It's single agent. Only one agent perceive the environment
+iii. Deterministic or stochastic?
+	It's deterministic. If the dirty place is in the front, then IRobot Roomba will clean it. If there is no dirty in front but the left and right sides are dirty, it will clean the left side first according to the setting.
+iv. Episodic or sequential?
+	It's episodic. Act according to the situation where dirt is found, the order of front, left, and right is secondary.
+v. Static or dynamic?
+	It's dynamic. Acting by detecting dirt, it can make a quick decision to confirm whether there is dirt that needs to be cleaned up.
+vi. Discrete or continuous?
+	It's discrete. The production is specially used to clean up dirty.
+
+c. Which agent type is most appropriate for this task: simple reflex, model-based reflex,
+goal-based, or utility-based? Include a brief justification for your choice.
+	It's simple reflex. Get information through its sensor, if it is found dirty, it will start cleaning, if it is clean, it will continue to move to look for dirty.
